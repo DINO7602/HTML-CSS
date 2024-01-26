@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto: 300, 400, 500,70
+0&display=swap&subset=vietnamese" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/fonts/fontawesome-free-6.5.1-web/css/all.min.css" />
+</head>
+
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="grid">
+        <nav class="header_navbar">
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">
+              vao cua hang tren ung dung
+              <!-- Header QR code -->
+              <div class="header__qr">
+                <img src="./assets/css/img/qrcode.png" alt="QR code" class="header__qr-img" />
+                <div class="header__qr-app">
+                  <a href="" class="header_qr-link">
+                    <img src="./assets/css/img/ggplay.png" alt="Google Play" class="header__qr-download-img" />
+                  </a>
+                  <a href="" class="header__qr-link">
+                    <img src="./assets/css/img/appstore.png" alt="App Store" class="header__qr-download-img" />
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="header__navbar-item">
+              <span class="header__navbar-title--no-pointer"> Ket noi </span>
+
+              <a href="" class="header__navbar-icon-link">
+                <i class="header__navbar-icon fa-brands fa-facebook"> </i>
+              </a>
+              <a href="" class="header__navbar-icon-link">
+                <i class="header__navbar-icon fa-brands fa-instagram"> </i>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="header__navbar-list">
+            <li class="header__navbar-item header__navbar-item--has-notifi">
+              <a href="" class="header__navbar-item-link">
+                <i class="header__navbar-icon-link fa-regular fa-bell"></i>
+                Thong bao
+              </a>
+              <div class="header__notifi">
+                <header class="header__notifi-header">
+                  <h3>Thong bao moi nhan</h3>
+                </header>
+                <ul class="header-notifi-list">
+                  <li class="header__notifi-item">
+                    <a href="" class="header__notifi-link">
+                      <img src="https://down-vn.img.susercontent.com/file/25d9f1ba3f30e63bcb0a8e0b0cbf4d56" alt=""
+                        class="header_notifi-img" />
+                      <div class="header__notifi-infor">
+                        <span class="header__notifi-name">My Pham chinh hang</span>
+                        <span class="header__notifi-description">Mo ta san pham chinh hang</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="header__notifi-item header__notifi-item--view">
+                    <a href="" class="header__notifi-link">
+                      <img src="https://down-vn.img.susercontent.com/file/25d9f1ba3f30e63bcb0a8e0b0cbf4d56" alt=""
+                        class="header_notifi-img" />
+                      <div class="header__notifi-infor">
+                        <span class="header__notifi-name">My Pham chinh hang</span>
+                        <span class="header__notifi-description">Mo ta san pham chinh hang</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="header__notifi-item">
+                    <a href="" class="header__notifi-link">
+                      <img src="https://down-vn.img.susercontent.com/file/25d9f1ba3f30e63bcb0a8e0b0cbf4d56" alt=""
+                        class="header_notifi-img" />
+                      <div class="header__notifi-infor">
+                        <span class="header__notifi-name">My Pham chinh hang</span>
+                        <span class="header__notifi-description">Mo ta san pham chinh hang</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <footer class="header__notifi-footer">
+                  <a href="" class="header_notifi-footer-btn">Xem tat ca</a>
+                </footer>
+              </div>
+            </li>
+            <li class="header__navbar-item">
+              <a href="" class="header__navbar-item-link">
+                <i class="header__navbar-icon-link fa-solid fa-question"></i>
+                Tro giup
+              </a>
+            </li>
+
+            <li class="header__navbar-item header__navbar-item--Strong header__navbar-item-separate">Dang ki</li>
+            <li class="header__navbar-item header__navbar-item--Strong">Dang nhap</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <footer class="footer"></footer>
+  </div>
+<!-- 
+  modal layout -->
+  <div class="modal">
+    <div class="modal__overlay">
+
+    </div>
+    <div class="modal__body">
+
+      <!-- Dang ki -->
+      <!-- <div class="auth-form">
+        <div class="auth-form__container">
+
+          <div class="auth__header">
+            <h3 class="auth-form__heading">Dang ki</h3>
+            <span class="auth-form__switch-btn">Dang nhap</span>
+          </div>
+
+          <div class="auth-form__form">
+            <div class="auth-form__group">
+              <input type="text" class="auth-form__input" placeholder="Nhap email cua ban">
+            </div>
+            <div class="auth-form__group">
+              <input type="password" class="auth-form__input" placeholder="Nhap mat khau ">
+            </div>
+            <div class="auth-form__group">
+              <input type="password" class="auth-form__input" placeholder="Nhap lai mat khau">
+            </div>
+          </div>
+
+          <div class="auth-form__outsize">
+            <p class="auth-form__policy-text">
+              Bằng việc đăng kí , bạn đã đồng ý với shopee về chính sách bảo mật
+              <a href="" class="auth-form__text-link">Diều khoản dịch vụ</a> &
+              <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+            </p>
+          </div>
+
+          <div class="auth-form_controls">
+            <button class="btn btn--normal ">TRO LAI</button>
+            <button class="btn btn--primary ">Dang ki</button>
+          </div>
+
+        </div>
+
+
+        <div class="auth-form__socials">
+          <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+          
+              <i class=" auth-form__socials-icon fa-brands fa-square-facebook"></i>
+           <span class="auth-form__socials-title"> Ket noi voi facebook
+
+           </span>         
+          </a>
+
+          <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+            <i class=" auth-form__socials-icon fa-brands fa-google"></i>
+               
+              <span class="auth-form__socials-title">
+                Ket noi voi google
+              </span>
+          </a>
+        </div>
+
+      </div> -->
+
+
+      <!-- Dang nhap -->
+
+
+      <div class="auth-form">
+        <div class="auth-form__container">
+
+          <div class="auth__header">
+            <h3 class="auth-form__heading">Dang Nhap</h3>
+            <span class="auth-form__switch-btn">Dang nhap</span>
+          </div>
+
+          <div class="auth-form__form">
+            <div class="auth-form__group">
+              <input type="text" class="auth-form__input" placeholder="Nhap email cua ban">
+            </div>
+            <div class="auth-form__group">
+              <input type="password" class="auth-form__input" placeholder="Nhap mat khau ">
+            </div>
+            <div class="auth-form__group">
+              <input type="password" class="auth-form__input" placeholder="Nhap lai mat khau">
+            </div>
+          </div>
+
+          <div class="auth-form__outsize">
+            <p class="auth-form__policy-text">
+              Bằng việc đăng kí , bạn đã đồng ý với shopee về chính sách bảo mật
+              <a href="" class="auth-form__text-link">Diều khoản dịch vụ</a> &
+              <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+            </p>
+          </div>
+
+          <div class="auth-form_controls">
+            <button class="btn btn--normal ">TRO LAI</button>
+            <button class="btn btn--primary ">Dang ki</button>
+          </div>
+
+        </div>
+
+
+        <div class="auth-form__socials">
+          <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+          
+              <i class=" auth-form__socials-icon fa-brands fa-square-facebook"></i>
+           <span class="auth-form__socials-title"> Ket noi voi facebook
+
+           </span>         
+          </a>
+
+          <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+            <i class=" auth-form__socials-icon fa-brands fa-google"></i>
+               
+              <span class="auth-form__socials-title">
+                Ket noi voi google
+              </span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+ 
+</body>
+
+</html>

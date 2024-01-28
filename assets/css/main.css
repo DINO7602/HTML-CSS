@@ -325,6 +325,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 1.6rem;
 }
 .btn.btn--normal:hover{
  background-color: rgba(0, 0,0, 0.01);
@@ -371,4 +372,128 @@
 
 .auth-form__socials--google{
   background-color: var(--while-color);
+}
+.auth-form__help{
+  display: flex;
+  justify-content: flex-end;
+}
+.auth-form__help-link{
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #939393;
+  
+}
+.auth-form__help-separate{
+  display: block;
+  border-left: 1px solid var(--border-color) ;
+  margin: -1px 16px 0;
+  height: 22px ;
+}
+.auth-form__help-forgot{
+  color: var(--primary-color);
+}
+/* header with search */
+.header-with-search{
+  height: var(--header-with-search-height);
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.header__logo{
+  width: 200px;
+}
+.header__logo-img{
+  width: 150px;
+  color: var();
+  
+}
+.header__search{
+  background-color: var(--while-color);
+  height: 40px;
+  flex-grow: 1;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+}
+.header__cart{
+  width: 150px;
+  text-align: center;
+}
+.header__cart-icon{
+  color: var(--while-color);
+  font-size: 20px;
+ margin-top: 8px;
+
+}
+.header__search-input{
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: var(--text-color);
+  padding: 0 16px;
+  border-radius: 3px;
+}
+.header__search-select{
+  border-left: 1px solid #ccc;
+  padding-left: 16px;
+}
+.header__search-select-label{
+  font-size: 15px;
+  color: var(--text-color);
+  position: relative;
+
+}
+.header__search-select-icon{
+  font-size: 13px;
+  color: #4a4a4a;
+  margin: 0 16px;
+  position: relative;
+  top: 1;
+}
+.header__search-btn:hover{
+  background-color: #cc7260;
+  cursor: pointer;
+}
+.header__search-btn{
+ background-color: var(--primary-color);
+ border: none;
+ height: 34px;
+ border-radius: 3px;
+ margin-right: 4px;
+ width: 60px;
+ outline: none;
+}
+.header__search-btn-icon{
+font-size: 14px;
+color: var(--while-color);
+}
+.header__search-option{
+  position: absolute;
+  width: 165px;
+  list-style: none;
+  padding-left: 38px;
+  right: 313px;
+  box-shadow: 0 0 3px #ccc;
+  padding-left: 0;
+  
+  
+}
+.header__search-option-item{
+  background-color: var(--while-color);
+  border-radius: 3px;
+  padding: 8px 8px;
+  margin-top:5px ;
+  
+}
+.header__search-option-item span{
+  font-size: 14px;
+  color: var(--text-color);
+ 
+}
+.header__search-option-item i{
+  font-size: 12px;
+  color: var(--primary-color);
+  margin: 0 4px 0 12px;
 }
